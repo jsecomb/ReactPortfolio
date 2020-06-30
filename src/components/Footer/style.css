@@ -1,14 +1,31 @@
 .footer {
-  min-height: 100px;
+  min-height: 50px;
   background: #e5e5e5;
   position: relative;
 }
 
-.footer span {
+.footer-span {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
   padding: 3px;
-  background: #b8b8b8;
+  background: darkgray;
+}
+
+.page-footer {
+  position: sticky
+}
+
+.footer-copyright {
+  font-family: 'Poiret One', cursive;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.footerLink {
+  font-family: 'Poiret One', cursive;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
 }

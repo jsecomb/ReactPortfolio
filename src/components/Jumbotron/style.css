@@ -1,0 +1,35 @@
+.jumbotron {
+    background-color: #3765b0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+a.nav-link { 
+    Font-family: 'Monoton', cursive;
+    font-size: 36px;
+    color: white;
+}
+
+a.nav-link:hover {
+    color:white;
+    text-shadow: 2px 2px 1px rgb(66, 66, 66);
+}
+
+a.active {
+    font-family: 'Monoton', cursive;
+    font-size: 36px;
+    color:white;
+    text-shadow: 2px 2px 1px black;
+}
+
+.nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.nav-item {
+    display: inline-block;
+    float:none;
+}

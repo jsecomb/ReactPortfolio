@@ -1,17 +1,23 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Search from "./pages/Search";
+import Home from "./pages/Home";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
+import Jumbotron from "./components/Jumbotron";
 import "./App.css";
 
 function App() {
   return (
     <Router>
       <div>
+        <Jumbotron/>
         <Wrapper>
-          <Route exact path="/" component={Search} />
-          <Route exact path="/search" component={Search} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/home" component={Home} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/contact" component={Contact} />
         </Wrapper>
         <Footer />
       </div>
