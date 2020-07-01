@@ -4,7 +4,8 @@ import "./style.css"
 function Home() {
     return(
     <div className="container"> 
-        <br/><br/>
+        <h1 id="h1">Bio</h1>
+        <br/>
         <div className="row">
           <div className="col-sm-12 col-md-6">
             <img className="img-fluid bioImage" alt="bioImage" src="https://images.squarespace-cdn.com/content/v1/5b94a40a697a9812941c46e8/1563658668336-L3KHYUJFJCXS0SFTBWHE/ke17ZwdGBToddI8pDm48kOJKmLo_FBmFgq96Wj3pHHZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0k9kZPbuygN4RSDPe_G5PO-pGSUmFejYyNdldZUsgA1geY3EYMDizs3YOd-BypEwww/ShopPortrait.jpeg?format=1000w"></img>

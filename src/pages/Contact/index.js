@@ -3,8 +3,6 @@ import "./style.css"
 
 function Contact() {
     return(
-    <body>
-
     <div className="container">
       <h1 id="h1">Find me here:</h1>
       <br/>
@@ -37,7 +35,6 @@ function Contact() {
           className="contactLink">linkedin.com/in/julian-secomb</a> </h4>
       <h4>Github: <a href="https://github.com/jsecomb" className="contactLink">github.com/jsecomb</a></h4>
     </div>
-    </body>
     )
 }
 
