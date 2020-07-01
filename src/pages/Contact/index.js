@@ -9,19 +9,19 @@ function Contact() {
       <div className="contactInfo">    
         <div className="row">
           <div className="col">
-            <form className="contactMe">
+            <form className="contactMe" name="contact" data-netlify="true">
+              <div className="form-group">
+                <label for="exampleFormControlTextarea1">Name</label>
+                <textarea className="form-control" name="name" id="exampleFormControlTextarea1" rows="1"></textarea>
+              </div>
               <div className="form-group">
                 <label for="exampleInputEmail1">Email</label>
-                <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></input>
+                <input type="email" className="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp"></input>
                 <small id="emailHelp" className="form-text text-muted"></small>
               </div>
               <div className="form-group">
-                <label for="exampleFormControlTextarea1">Name</label>
-                <textarea className="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
-              </div>
-              <div className="form-group form-check">
-                <input type="checkbox" className="form-check-input" id="exampleCheck1"></input>
-                <label className="form-check-label" for="exampleCheck1">Send me occaisional updates</label>
+                <label for="exampleFormControlTextarea2">Message</label>
+                <textarea className="form-control" name="message" id="exampleFormControlTextarea2" rows="4"></textarea>
               </div>
               <button type="submit" className="btn btn-primary">Submit</button>
             </form>

@@ -11,7 +11,6 @@ import "./App.css";
 function App() {
   return (
     <Router>
-      <div>
         <Header/>
         <Wrapper>
           <Route exact path="/" component={Home} />
@@ -20,7 +19,6 @@ function App() {
           <Route exact path="/contact" component={Contact} />
         </Wrapper>
         <Footer />
-      </div>
     </Router>
   );
 }
