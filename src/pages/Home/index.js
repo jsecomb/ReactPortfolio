@@ -18,7 +18,7 @@ function Home() {
               </p>
               <br/>
                 <h4>
-                  <a href="https://drive.google.com/file/d/1RRmvyq5wj5aSc4Y7pikfO52Gu-ak_lfU/view?usp=sharing" className="portfolioLink">Resume</a>
+                  <a href="https://drive.google.com/file/d/10NqYmi4yDboUT-PbutGw6PxQLM59bNWo/view?usp=sharing" className="portfolioLink">Resume</a>
                 </h4>
             </div>
           </div>
